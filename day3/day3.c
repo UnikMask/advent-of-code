@@ -13,6 +13,7 @@ struct map {
 
 /**
  * Loads map from file into a map struct.
+ *
  * @param filename The path of the file containing the map.
  * @param distm The map struct to load the map to.
  * @returns whether loading was successful or not.
@@ -76,10 +77,13 @@ long getnumtrees(struct map* distm, int mvx, int mvy) {
 	return numtrees;
 }
 
+
 /**
  * Main function of day3 program.
+ *
  * @param argc the number of arguments in user arguments.
  * @param argv the user argument array.
+ * @return The exit code of the program.
  */
 int main(int argc, char *argv[]) {
 	if (argc == 2) {
@@ -99,6 +103,10 @@ int main(int argc, char *argv[]) {
 			long sum = getnumtrees(&day3m, 1, 1) * getnumtrees(&day3m, 3, 1) * getnumtrees(&day3m, 5, 1)
 				* getnumtrees(&day3m, 7, 1) * getnumtrees(&day3m, 1, 2);
 			printf("Part 2 - Product of trees encountered on each listed slopes: %ld\n", sum);
+			for (int i = 0; i < day3m.ys; i++) {
+				free(day3m.mapm[i]);
+			}
+			free(day3m.mapm);
 		}
 		else {
 			return -1;

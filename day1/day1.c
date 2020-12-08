@@ -101,6 +101,7 @@ int part2(char *filepath) {
 			}
 		}
 	}
+	free(resv);
 	return elem0 * elem1 * elem2;
 }
 

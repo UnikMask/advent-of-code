@@ -45,13 +45,11 @@ bool checkpart2val(int first, int second, char letter, char *password) {
 /**
  * Function to complete day 2 - Loop over passwords and letters, numbers,
  * then check their validity.
+ *
+ * @param fn The name/path of the file containing the passwords.
  */
 void day2complete(char *fn) {
 	FILE *fp = fopen(fn, "r");
-	struct strarr resv = {
-		.arrs = 0,
-		.arrv = malloc(1000 * sizeof(char[255]))
-	};
 
 	// Initialise integers for part 1 and 2.
 	int part1num = 0;
