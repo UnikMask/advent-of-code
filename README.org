@@ -15,5 +15,15 @@ Go into the folder corresponding to the day, and run -
 to run the day's programs. 1st line of output is the 1st part of the given day's challenge,
 and 2nd line of output is the solution to the 2nd part of that day's challenge.
 
+* Status
+On <2020-12-08 Tuesday>, I have completed:
++ Day 1,
++ Day 2,
++ Day 3,
++ Day 4 (part 1 only),
++ Day 5,
++ Day 7,
++ Day 8.
+
 * Contribute
 Don't.
