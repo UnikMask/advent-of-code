@@ -1,6 +1,6 @@
 # Advent of Code 2020 - Makefile
 CCFLAGS = "-g"
-CC = "gcc"
+CC = "clang"
 SRC_D_SUFFIX = "day"
 
 
@@ -29,6 +29,9 @@ day7:
 day8:
 	@echo CC -o ${SRC_D_SUFFIX}8/day8.out
 	@${CC} -o ${SRC_D_SUFFIX}8/day8.out ${SRC_D_SUFFIX}8/day8.c ${CCFLAGS}
+day9:
+	@echo CC -o ${SRC_D_SUFFIX}9/day9.out
+	@${CC} -o ${SRC_D_SUFFIX}9/day9.out ${SRC_D_SUFFIX}9/day9.c ${CCFLAGS}
 
 
-.PHONY: all day1 day2 day3 day4 day5 day7 day8
+.PHONY: all day1 day2 day3 day4 day5 day7 day8 day9
