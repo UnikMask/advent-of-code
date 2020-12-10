@@ -23,7 +23,9 @@ On <2020-12-08 Tuesday>, I have completed:
 + Day 4 (part 1 only),
 + Day 5,
 + Day 7,
-+ Day 8.
++ Day 8,
++ Day 9,
++ Day 10.
 
 * Contribute
 Don't.
