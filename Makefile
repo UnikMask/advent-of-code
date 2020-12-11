@@ -35,9 +35,12 @@ day9:
 day10:
 	@echo ${CC} -o ${SRC_D_SUFFIX}10/day10 ${CCFLAGS}
 	@${CC} -o ${SRC_D_SUFFIX}10/day10 ${SRC_D_SUFFIX}10/day10.c ${CCFLAGS}
+day11:
+	@echo ${CC} -o ${SRC_D_SUFFIX}11/day11 ${CCFLAGS}
+	@${CC} -o ${SRC_D_SUFFIX}11/day11 ${SRC_D_SUFFIX}11/day11.c ${CCFLAGS}
 clean:
 	@echo rm day??/day??
 	@rm day??/day??
 
 
-.PHONY: all day1 day2 day3 day4 day5 day7 day8 day9 day10
+.PHONY: all day1 day2 day3 day4 day5 day7 day8 day9 day10 day11
