@@ -10,7 +10,7 @@ will build the programs for all the completed days.
 * Run
 Go into the folder corresponding to the day, and run -
 #+BEGIN_EXAMPLE
-./day${n}.out day${n}.txt
+./day${n} day${n}.txt
 #+END_EXAMPLE
 to run the day's programs. 1st line of output is the 1st part of the given day's challenge,
 and 2nd line of output is the solution to the 2nd part of that day's challenge.

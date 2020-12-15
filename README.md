@@ -1,14 +1,14 @@
 
 # Table of Contents
 
-1.  [Build](#orge47381c)
-2.  [Run](#org80e0680)
-3.  [Status](#org856a3cc)
-4.  [Contribute](#org0506c56)
+1.  [Build](#org5f67b4d)
+2.  [Run](#org5495944)
+3.  [Status](#org717e1c5)
+4.  [Contribute](#orgb2201f5)
 
 
 
-<a id="orge47381c"></a>
+<a id="org5f67b4d"></a>
 
 # Build
 
@@ -19,19 +19,19 @@ Running -
 will build the programs for all the completed days.
 
 
-<a id="org80e0680"></a>
+<a id="org5495944"></a>
 
 # Run
 
 Go into the folder corresponding to the day, and run -
 
-    ./day${n}.out day${n}.txt
+    ./day${n} day${n}.txt
 
 to run the day&rsquo;s programs. 1st line of output is the 1st part of the given day&rsquo;s challenge,
 and 2nd line of output is the solution to the 2nd part of that day&rsquo;s challenge.
 
 
-<a id="org856a3cc"></a>
+<a id="org717e1c5"></a>
 
 # Status
 
@@ -53,7 +53,7 @@ On <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-12-08 Tue&gt
 -   Day 15.
 
 
-<a id="org0506c56"></a>
+<a id="orgb2201f5"></a>
 
 # Contribute
 
