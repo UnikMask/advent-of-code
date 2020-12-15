@@ -1,14 +1,14 @@
 
 # Table of Contents
 
-1.  [Build](#org44f946b)
-2.  [Run](#org09db6b8)
-3.  [Status](#org52e743a)
-4.  [Contribute](#orgba3322c)
+1.  [Build](#orge47381c)
+2.  [Run](#org80e0680)
+3.  [Status](#org856a3cc)
+4.  [Contribute](#org0506c56)
 
 
 
-<a id="org44f946b"></a>
+<a id="orge47381c"></a>
 
 # Build
 
@@ -19,7 +19,7 @@ Running -
 will build the programs for all the completed days.
 
 
-<a id="org09db6b8"></a>
+<a id="org80e0680"></a>
 
 # Run
 
@@ -31,7 +31,7 @@ to run the day&rsquo;s programs. 1st line of output is the 1st part of the given
 and 2nd line of output is the solution to the 2nd part of that day&rsquo;s challenge.
 
 
-<a id="org52e743a"></a>
+<a id="org856a3cc"></a>
 
 # Status
 
@@ -48,10 +48,12 @@ On <span class="timestamp-wrapper"><span class="timestamp">&lt;2020-12-08 Tue&gt
 -   Day 10,
 -   Day 11,
 -   Day 12,
--   Day 13.
+-   Day 13,
+-   Day 14,
+-   Day 15.
 
 
-<a id="orgba3322c"></a>
+<a id="org0506c56"></a>
 
 # Contribute
 

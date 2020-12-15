@@ -4,7 +4,7 @@ CC = "clang"
 SRC_D_SUFFIX = "day"
 
 
-all: day1 day2 day3 day4 day5 day7 day8 day9 day10 day11 day12 day13 day14
+all: day1 day2 day3 day4 day5 day7 day8 day9 day10 day11 day12 day13 day14 day15
 day1:
 	@echo ${CC} -o ${SRC_D_SUFFIX}01/day01 ${CCFLAGS}
 	@${CC} -o ${SRC_D_SUFFIX}01/day01 ${SRC_D_SUFFIX}01/day1.c ${CCFLAGS}
@@ -47,9 +47,12 @@ day13:
 day14:
 	@echo ${CC} -o ${SRC_D_SUFFIX}14/day14 ${CCFLAGS}
 	@${CC} -o ${SRC_D_SUFFIX}14/day14 ${SRC_D_SUFFIX}14/day14.c ${CCFLAGS}
+day15:
+	@echo ${CC} -o ${SRC_D_SUFFIX}15/day15 ${CCFLAGS}
+	@${CC} -o ${SRC_D_SUFFIX}15/day15 ${SRC_D_SUFFIX}15/day15.c ${CCFLAGS}
 clean:
 	@echo rm day??/day??
 	@rm day??/day??
 
 
-.PHONY: all day1 day2 day3 day4 day5 day7 day8 day9 day10 day11 day12 day13 day14
+.PHONY: all day1 day2 day3 day4 day5 day7 day8 day9 day10 day11 day12 day13 day14 day15

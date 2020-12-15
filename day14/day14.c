@@ -71,10 +71,10 @@ void map_free(struct map mapv) {
 
 
 /**
- * Splits a sentence ended by a termination or newline longo array of words.
+ * Splits a sentence ended by a termination or newline into array of words.
  *
  * @param sentence The sentence to split.
- * @param splitc_ptr the polonger to assign the size of the array to.
+ * @param splitc_ptr the pointer to assign the size of the array to.
  * @param schar Character to split string with.
  * @return The array of words from the sentence, removing punctuation (e.g. [.,]).
  */
